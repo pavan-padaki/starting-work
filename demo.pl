@@ -3,10 +3,12 @@
 #
 # demo.pl
 # Developed by Dharma  <dharma@exceleron.com>
-
+use diagnostics;
 use strict;
-print "Content-type: text/html\r\n\r\n";
-print "Hello there!<br />\nJust testing .<br />\n";
+use feature qw/say/;
+
+say "Content-type: text/html\r\n\r";
+say "Hello there!<br />\nJust testing .<br />";
 
 for ($i=0; $i<10; $i++)
 {
